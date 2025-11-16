@@ -1319,7 +1319,7 @@ Add all environment URLs to Google Cloud Console:
 Now you're ready to deploy to all environments:
 
 ```powershell
-cd C:\Users\praghav\smartcrop-os
+cd C:\Users\praghav\cropwise
 
 # Deploy to Development
 git checkout develop
