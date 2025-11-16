@@ -911,7 +911,7 @@ testAll();
 **Run the test:**
 
 ```powershell
-cd C:\Users\praghav\smartcrop-os\backend
+cd C:\Users\praghav\cropwise\backend
 
 # Test development only
 $env:DATABASE_URL_DEV="postgresql://cropwise_dev_admin:CropWiseDev2025!@YOUR_DEV_ENDPOINT:5432/cropwise_dev"
@@ -1162,7 +1162,7 @@ After creating all three databases, initialize them with your schema and seed da
 ### **Initialize Development Database**
 
 ```powershell
-cd C:\Users\praghav\smartcrop-os\backend
+cd C:\Users\praghav\cropwise\backend
 
 # Set development DATABASE_URL
 $env:DATABASE_URL="postgresql://cropwise_dev_admin:CropWiseDev2025!@YOUR_DEV_ENDPOINT:5432/cropwise_dev"
@@ -1188,7 +1188,7 @@ npm run seed:dev
 ### **Initialize Staging Database**
 
 ```powershell
-cd C:\Users\praghav\smartcrop-os\backend
+cd C:\Users\praghav\cropwise\backend
 
 # Set staging DATABASE_URL
 $env:DATABASE_URL="postgresql://cropwise_stage_admin:CropWiseStage2025!Secure@YOUR_STAGE_ENDPOINT:5432/cropwise_stage"
@@ -1215,7 +1215,7 @@ npm run seed:stage
 ⚠️ **IMPORTANT**: Run production migrations carefully!
 
 ```powershell
-cd C:\Users\praghav\smartcrop-os\backend
+cd C:\Users\praghav\cropwise\backend
 
 # Set production DATABASE_URL
 $env:DATABASE_URL="postgresql://cropwise_prod_admin:YOUR_PROD_PASSWORD@YOUR_PROD_ENDPOINT:5432/cropwise_prod"
